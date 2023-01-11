@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inscription_client"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    tools:context="com.example.abdoudriss.atbpfeclient.InscriptionClient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/inscriusername"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/designedtext"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="Username"
+                    android:maxLength="30"
+                    android:singleLine="true"
+
+                    android:textColor="#282728" />
+
+
+                <EditText
+                    android:id="@+id/inscripassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/designedtext"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColor="#282728" />
+
+                <EditText
+                    android:id="@+id/inscrinvpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/designedtext"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="Repeat Password"
+                    android:maxLength="20"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColor="#282728" />
+
+                <EditText
+                    android:id="@+id/inscrinumcarte"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/designedtext"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="Numéro carte bancaire"
+                    android:inputType="number"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    android:textColor="#282728" />
+
+                <EditText
+                    android:id="@+id/inscridate"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/designedtext"
+                    android:clickable="true"
+                    android:ellipsize="start"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:hint="Date validité (MM/YYYY)"
+                    android:inputType="date"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColor="#282728" />
+
+                <EditText
+                    android:id="@+id/inscricvv"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/designedtext"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="Code CVV (3 chiffres)"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:singleLine="true"
+                    android:textColor="#282728" />
+
+                <EditText
+                    android:id="@+id/inscriemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/designedtext"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="Email adress "
+                    android:inputType="textWebEmailAddress"
+                    android:maxLength="59"
+                    android:singleLine="true"
+                    android:textColor="#282728" />
+
+                <Button
+                    android:id="@+id/btlok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/designed_button"
+                    android:text="Valider"
+                    android:textAllCaps="false"
+                    android:textColor="#d4d4d4">
+
+                </Button>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <Button
+                    android:id="@+id/btretour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/designed_button"
+                    android:text="Retour"
+                    android:textAllCaps="false"
+                    android:textColor="#d4d4d4"></Button>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

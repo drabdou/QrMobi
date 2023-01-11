@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdoudriss.atbpfeclient.ResetPass">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/zz" />
+
+        <EditText
+            android:id="@+id/oldpass"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:background="@drawable/designedtext"
+            android:textColor="#282728"
+            android:hint="Old password"
+            android:maxLength="20"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/ResetNewpassword"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:background="@drawable/designedtext"
+            android:textColor="#282728"
+            android:hint="New password"
+            android:maxLength="20"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/ResetNewpasswordRepeat"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:background="@drawable/designedtext"
+            android:textColor="#282728"
+            android:hint="Repeat password"
+            android:maxLength="20"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/newpasswordReset"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:background="@drawable/designed_button"
+            android:textColor="#d4d4d4"
+            android:text="Reset password" />
+
+    </LinearLayout>
+</RelativeLayout>

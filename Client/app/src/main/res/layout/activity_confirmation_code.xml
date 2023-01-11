@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.abdoudriss.atbpfeclient.ConfirmationCode">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_margin="30dp"
+            android:id="@+id/atbimageconfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/zz" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:id="@+id/ConfirmationCodeEdittext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:background="@drawable/designedtext"
+            android:textColor="#282728"
+            android:hint="Confirmation code"
+            android:inputType="number"
+            android:maxLength="6"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/ButtonConfirmation"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:background="@drawable/designed_button"
+            android:textColor="#d4d4d4"
+            android:text="Validate" />
+
+    </LinearLayout>
+</RelativeLayout>
+
