@@ -4,7 +4,7 @@
  ### Version 1: Client Side ( Access to relative features/ management of account and/or pay bills)
  ### Version 2: Handler Side ( Access to relative features/ management of account and/or create bills)
  
- Below are some screenshots of the main process: ( The app has also some other cool features )
+ Below are some screenshots of the main process: ( The app contains many other features as well )
 
 Authentication view:
 
@@ -14,7 +14,7 @@ Password recovery view:
 
 ![image](https://user-images.githubusercontent.com/118793349/211912012-d9a74afc-8a27-429b-bd2f-a0556192bd7b.png)
 
-Qr-code displayed on the client version ( Qr is generated randomly each time and only valid for the few seconds of payment) 
+QR-code displayed on the Client Side ( QR is generated randomly each time and only valid for the moment of payment) 
 
 ![image](https://user-images.githubusercontent.com/118793349/211912529-9d960a03-477c-4a06-a1ff-300aa39868e5.png)
 
